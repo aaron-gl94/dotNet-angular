@@ -1,0 +1,6 @@
+@AaronGL_API_HostAddress = http://localhost:5254
+
+GET {{AaronGL_API_HostAddress}}/api/bitacora
+Accept: application/json
+
+###
