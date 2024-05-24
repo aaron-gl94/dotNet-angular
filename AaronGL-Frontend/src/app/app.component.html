@@ -1,0 +1,12 @@
+
+
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <app-form (salesDataEventOutput)="onSalesDataReceived($event)"></app-form>
+        </div>
+        <div class="col-md">
+            <app-reporte [salesDataInput]="salesDataMiddle"></app-reporte>
+        </div>
+    </div>
+</div>

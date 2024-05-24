@@ -1,0 +1,49 @@
+<div class="card">
+    <div class="card-body">
+        <h1>Reporte</h1>
+        <hr class="hr">
+
+        <div class="d-grid gap-2">
+            <div class="btn-group">
+                <button class="btn btn-primary" (click)="getAllSales()">Ver Todo</button>
+                <button class="btn btn-danger" (click)="clearAllSales()">Limpiar</button>
+            </div>
+        </div>
+        <hr class="hr">
+
+        <table class="table table-hover table-striped">
+            <thead class="table-head">
+                <tr>
+                    <th>ID Log</th>
+                    <th>Fecha Bitacora</th>
+                    <th>ID</th>
+                    <th>Fecha</th>
+                    <th>Nombre</th>
+                    <th>Ventas</th>
+                    <th>Gastos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <ng-container *ngIf="listReport?.length; else noData">
+                    <tr *ngFor="let sale of listReport;">
+                        <td>{{sale.idLog}}</td>
+                        <td>{{sale.dateLog | date:'yyyy-MM-dd hh:mm'}}</td>
+                        <td>{{sale.saleLog.id!}}</td>
+                        <td>{{sale.saleLog.date | date:'yyyy-MM-dd'}}</td>
+                        <td>{{sale.saleLog.name}}</td>
+                        <td>{{sale.saleLog.sales | currency}}</td>
+                        <td>{{sale.saleLog.expenses | currency}}</td>
+                    </tr>
+                </ng-container>
+
+                <ng-template #noData>
+                    <tr>
+                        <td colspan="7" align="center">
+                            <p>Sin datos por el momento</p>
+                        </td>
+                    </tr>
+                </ng-template>
+            </tbody>
+        </table>
+    </div>
+</div>
