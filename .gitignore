@@ -49,56 +49,56 @@ AaronGL-Frontend/Thumbs.db
 # .NET
 # --------------------------------------------------------
 # Visual Studio project files
-AaronGL-API/*.sln
-AaronGL-API/*.csproj
-AaronGL-API/*.vbproj
+# AaronGL-API/*.sln
+# AaronGL-API/*.csproj
+# AaronGL-API/*.vbproj
 
-# Temporary files
-AaronGL-API/bin/
-AaronGL-API/obj/
-AaronGL-API/Debug/
-AaronGL-API/Release/
+# # Temporary files
+# AaronGL-API/bin/
+# AaronGL-API/obj/
+# AaronGL-API/Debug/
+# AaronGL-API/Release/
 
-# Test results and coverage reports
-AaronGL-API/TestResults/
-AaronGL-API/coverage/
+# # Test results and coverage reports
+# AaronGL-API/TestResults/
+# AaronGL-API/coverage/
 
-# NuGet packages
-AaronGL-API/packages/
+# # NuGet packages
+# AaronGL-API/packages/
 
-# Third-party libraries (if not managed by NuGet)
-AaronGL-API/lib/
+# # Third-party libraries (if not managed by NuGet)
+# AaronGL-API/lib/
 
-# Local development settings
-AaronGL-API/*.user
-AaronGL-API/*.suo
-AaronGL-API/*.Intf.cs
+# # Local development settings
+# AaronGL-API/*.user
+# AaronGL-API/*.suo
+# AaronGL-API/*.Intf.cs
 
-# Logs and cache
-AaronGL-API/*.log
-AaronGL-API/*.db
-AaronGL-API/*.tmp
+# # Logs and cache
+# AaronGL-API/*.log
+# AaronGL-API/*.db
+# AaronGL-API/*.tmp
 
-# IDE-specific files
-AaronGL-API/*.vscode/
-AaronGL-API/.idea/
-AaronGL-API/.ReSharper/
+# # IDE-specific files
+# AaronGL-API/*.vscode/
+# AaronGL-API/.idea/
+# AaronGL-API/.ReSharper/
 
-# Visual Studio Code settings
-AaronGL-API/settings.json
-AaronGL-API/tasks.json
-AaronGL-API/keybindings.json
+# # Visual Studio Code settings
+# AaronGL-API/settings.json
+# AaronGL-API/tasks.json
+# AaronGL-API/keybindings.json
 
-# Visual Studio Code extensions
-AaronGL-API/extensions/
+# # Visual Studio Code extensions
+# AaronGL-API/extensions/
 
-# Visual Studio Code workspace files
-AaronGL-API/.vscode/workspace.json
+# # Visual Studio Code workspace files
+# AaronGL-API/.vscode/workspace.json
 
-# Local environment configuration
-AaronGL-API/appsettings.Development.json
-AaronGL-API/appsettings.json
-AaronGL-API/Properties/launchSettings.json
+# # Local environment configuration
+# AaronGL-API/appsettings.Development.json
+# AaronGL-API/appsettings.json
+# AaronGL-API/Properties/launchSettings.json
 
-# Any other files or directories you want to exclude
-*/.fake
+# # Any other files or directories you want to exclude
+# */.fake
